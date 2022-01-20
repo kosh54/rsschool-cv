@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive.css">
+    <title>kosh CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+         </nav>
+      </div>   
+    </header>
+    <main class="main">
+      <div class="main-container">
+        <section class="section-profile" id="profile">
+          <img src="assets/avatar.jpg" alt="kosh-avatar" class="section-profile-logo">
+          <div class="section-profile-title"> 
+            <h1>Konstantin Shulepov</h1>
+          </div>        
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="contacts-item">
+              Place:  <a href="https://www.google.com/maps/place/Novosibirsk" class="contacts-link">Russia, Novosibirsk</a></li>
+            <li class="contacts-item">
+              Email:  <a href="mailto:cshulepov@gmail.com" class="contacts-link" >cshulepov@gmail.com</a>
+            </li>
+            <li class="contacts-item">
+              Github: <a href="https://github.com/kosh54" class="contacts-link">kosh54</a>
+            </li>
+            <li class="contacts-item">
+              Telegram: <a href="https://t.me/kosh_54" class="contacts-link">@kosh_54</a>
+            </li>
+            <li class="contacts-item">
+              Discord: <a href="https://discord.com/channels/" class="contacts-link">kosh54#6968</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="about-me">
+          <h2 class="section-title">About me</h2>
+          <p>
+            I am studying to be a front-end developer at the Rolling Scopes school. I confidently use a computer under Windows/Mac OS, have an experience with computer hardware and office equipment. I like to learn new things and look for non-standard ways of solving problems.
+          </p>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+  <pre class="pre"><code>
+const intNumbers = [-1, 2, -3, 4, -5, 6, -7, 0, -8];
+
+  const signCount = function(array) {
+    let result = 0;
+      for (let index = 0; index array.length; ++index) {
+        if (Math.sign(array[index]) !== 1 && array[index] !==0) {
+            ++result;
+        }
+      }
+      return result;
+  };
+
+console.log(signCount(intNumbers));</code></pre></section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              <span>HTML5</span>
+            </li>
+            <li class="section-item">
+              <span>CSS</span>
+            </li>
+            <li class="section-item">
+              <span>JavaScript</span>
+            </li>
+            <li class="section-item">
+              <span>GitHub</span>
+            </li>
+            <li class="section-item">
+              <span>Java</span>
+            </li>
+            <li class="section-item">
+              <span>Python</span>
+            </li>
+          </ul>
+        </section>
+        
+         <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Novosibirsk State Academy of Water Transport</p>
+        </section>
+        <section class="section" id="courses">
+          <h2 class="section-title">Courses</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              <a href="https://rs.school/" class="contacts-link">Rolling Scopes School (in progress)</a> 
+            </li>
+            <li class="section-item">
+              <a href="https://javarush.ru/" class="contacts-link">JavaRush</a>
+            </li>
+            <li class="section-item">
+              <a href="https://learn.javascript.ru/" class="contacts-link">Learn Javascript (in progress)</a>
+            </li>
+            <li class="section-item">
+              <a href="https://practicum.yandex.ru/" class="contacts-link">Yandex Practicum</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              <a href="https://kosh54.github.io/rsschool-cv/cv" class="contacts-link">My CV is my first project.</a>
+            </li>          
+          </ul>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <p>English - Pre-Intermediate</p>
+          <p>Russian - Native</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+    <p>made by kosh 2022</p>
+    </footer>
+  </body>
+</html> 
