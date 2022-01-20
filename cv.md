@@ -9,7 +9,8 @@
 
 ## About Me ##
 
-I am studying to be a front-end developer at the Rolling Scopes school, I confidently use a computer under Windows/Mac OS, I have experience with computer hardware and office equipment.
+I am studying to be a front-end developer at the Rolling Scopes school.
+I confidently use a computer under Windows/Mac OS, have an experience with computer hardware and office equipment.
 I like to learn new things and look for non-standard ways of solving problems.
 
 ## My Skills ##
@@ -24,7 +25,6 @@ I like to learn new things and look for non-standard ways of solving problems.
 ## Code Example ##
 
 ``` Java
-//
 
 import java.util.Scanner;
 
